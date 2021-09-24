@@ -12,9 +12,10 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 400px;
+  max-width: 100%;
   box-shadow: 2px 2-x 4px rgba(0, 0, 0, 0.1);
   padding: 50px;
+  width: 50%;
 }
 
 .title {
@@ -140,13 +141,13 @@ span {
   flex-direction: column;
   justify-content: space-around;
   background-color: #f2796e;
-  width: 55%;
+  width: 50%;
   min-height: 100vh;
   padding: 10px 20px;
 }
 
 .form {
-  width: 45%;
+  width: 100%;
   max-width: none
 }
 
@@ -166,8 +167,7 @@ span {
 }
 
 .form {
-  width: 45%;
-  max-width: none;
+  max-width: 100%;
 }
 
 
