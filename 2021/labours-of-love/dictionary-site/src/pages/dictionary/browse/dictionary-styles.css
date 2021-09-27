@@ -1,0 +1,39 @@
+body {
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: Open Sans Condensed;
+}
+
+h2 {
+  font-family: Open Sans Condensed;
+}
+
+h3 {
+  color: #265667;
+  font-family: Open Sans Condensed;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 3px;
+  padding-bottom: 0;
+}
+
+.part-of-speech {
+  font-size: 20px;
+  color: #265667;
+}
+
+.phonetics {
+  font-size: 20px;
+  font-family: Open Sans Condensed;
+  color: #265667;
+}
+
+.definitions {
+  font-size: 20px;
+  font-family: Open Sans Condensed;
+}
