@@ -1,0 +1,26 @@
+h1 {
+  font-size: 35px;
+}
+
+body {
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.entries {
+}
