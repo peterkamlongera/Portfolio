@@ -1,0 +1,88 @@
+nav {
+  height: 20px;
+}
+
+body {
+  font-family: "Noto Sans"
+}
+
+.hero-image {
+  background-image: url(./assets/tea-header-3.jpg);
+  height: 700px;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+h4 {
+  position: relative;
+  text-align: center;
+}
+
+.business-info {
+  position: relative;
+  text-align: right;
+}
+
+.nav-bar {
+  position: relative;
+  text-align: right;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.nav-headers {
+  word-spacing: 30px;
+}
+
+.tea {
+  justify-content: space-between;
+}
+
+.product-range {
+  background-image: url(./assets/background-image-tea-1.jpg)
+}
+
+.tea-range-container {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.tea-description {
+  font-size: 8px;
+}
+
+.tea-product-type {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 150px;
+  max-height: 200px;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+.testimonials {
+  background-color: #C58E4C;
+}
+
+.footer {
+  background-image: url(./assets/footer-tea.jpg)
+}
+
+.about-us {
+  text-align: left;
+  color: white;
+}
+
+.newsletter {
+  text-align: right;
+  color: white;
+}
