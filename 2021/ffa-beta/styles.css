@@ -1,0 +1,224 @@
+* {box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  padding: 10px 0 0 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, #991616, #d19a0d);
+  background-size: cover;
+  border-radius: 15px;
+  border: black 1px solid;
+}
+
+.nav-bar-left {
+  position: relative;
+  display: grid;
+  border-right: white 1px solid;
+  width: 20vw;
+  font-size: 20px;
+  font-family: "Nunito";
+  box-shadow: 2px 0px  #888888;
+  padding: 10px 0 0 0;
+}
+
+.logo-header {
+  background-image: url(./assets/ffa-logo-transparent.png);
+  height: 100px;
+  padding: 10px 0 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: invert(1);
+  filter: invert(1)
+}
+
+.dashboard-nav-links-top {
+  padding: 30px 0 0 0;
+  position: relative;
+  left: 20%;
+}
+
+.dashboard-nav-links-bottom {
+  padding: 10px 0 0 0;
+  position: relative;
+  left: 20%;
+}
+
+.db-nav-links-top-each {
+  display: flex;
+  flex: row;
+  width: auto;
+  padding: 0 0 15px 0;
+}
+
+.db-img {
+  width: 10%;
+  height: auto;
+  -webkit-filter: invert(1);
+  filter: invert(1)
+}
+
+.nav-link {
+  padding-top: 0px;
+  display: grid;
+  text-align: left;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex: row;
+}
+
+.middle-dashboard-container {
+  width: 55vw;
+  padding: 10px 20px 0 20px;
+  font-family: "Montserrat Light";
+  color: white;
+}
+
+.nav-bar-right {
+  width: 25vw;
+  position: relative;
+  border-left: white 1px solid;
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.md-top-card {
+  border-radius: 25px;
+  background-color: white;
+  font-family: "Nunito";
+  padding: 0 0 0 0;
+  display: flex;
+  flex: row;
+  background-image: linear-gradient(to right, #2a3111, white);
+}
+
+.md-top-card-left {
+  width: 80vw;
+  padding: 40px 0 0 30px;
+  color: white;
+}
+
+.md-top-card-headline {
+  font-size: 32px;
+  padding: 0 0 25px 0;
+}
+
+.md-top-card-sub-headline{
+  font-size: 20px;
+  padding: 0 0 30px 0;
+}
+
+.md-top-card-right {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ---------- GENERAL ---------- */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+	text-align: center;
+  padding: 0 0 0 40px;
+}
+
+.calendar header {
+	position: relative;
+  text-align: center;
+}
+
+.calendar h2 {
+	text-transform: uppercase;
+  text-align: left;
+}
+
+.calendar thead {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.calendar tbody {
+	color: #cbd1d2;
+}
+
+.calendar tbody td:hover {
+	border: 1px solid #00addf;
+}
+
+.calendar td {
+	border: 1px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 1.9em;
+	line-height: 1.9em;
+	text-align: center;
+	width: 1.9em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	color: #7c8a95;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+	border: 1px solid #7c8a95;
+}
+
+.current-day {
+	background: #2a3111;
+	color: #f9f9f9;
+}
+
+.md-top-card-right-img {
+  height: 100%;
+  width: 100%;
+}
+
+.md-top-card-button {
+  font-size: 16px;
+  border-radius: 30px;
+  border-color: #ffff;
+  background-color: #ffff;
+  color: #2a3111;
+  padding: 10px 40px;
+}
+
+.to-do-list-tasks {
+  display: flex;
+  flex: column;
+}
+
+.tasks {
+  border-radius: 15px;
+  background-color: white;
+  font-family: "Ubuntu";
+  display: flex;
+  flex: column;
+  font-size: 12px;
+}

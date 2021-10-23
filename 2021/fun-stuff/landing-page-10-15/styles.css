@@ -1,3 +1,5 @@
+/* Global */
+
 nav {
   height: 20px;
   color: white;
@@ -5,7 +7,7 @@ nav {
 }
 
 body {
-  font-family: "Noto Sans"
+  font-family: "Nunito"
 }
 
 h1 {
@@ -16,6 +18,26 @@ h4 {
   position: relative;
   text-align: center;
 }
+
+/* Navigation & Header Section */
+
+.business-info {
+  position: relative;
+  text-align: right;
+}
+
+.nav-bar {
+  position: relative;
+  text-align: right;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.nav-headers {
+  word-spacing: 30px;
+}
+
+/* Hero Section */
 
 .hero-image {
   background-image: url(./assets/tea-header-4.jpg);
@@ -53,61 +75,52 @@ h4 {
   border-color: #ffff;
 }
 
+/* Demo Section */
+
 .demo {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100vw;
-  padding: 20px 0 0 0;
+  width: 90vw;
+  padding: 20px;
+  margin: 0px auto;
 }
 
 .video-demo {
-  max-width: 50vw;
-  padding-right: 100px;
-  padding: 0 100px 0 30px;
+  border-radius: 20px;
+  width: 45vw;
+  position: relative;
+  text-align: center;
 }
 
 .demo-description {
-  max-width: 50vw;
+  width: 45vw;
   text-align: left;
-  padding-right: 20px;
 }
 
-.business-info {
-  position: relative;
-  text-align: right;
-}
-
-.nav-bar {
-  position: relative;
-  text-align: right;
-  justify-content: space-between;
-  padding-right: 10px;
-}
-
-.nav-headers {
-  word-spacing: 30px;
-}
+/* Product Range */
 
 .tea {
-  justify-content: space-between;
+  word-spacing: 30px;
+  font-size: 12px;
 }
 
 .product-range {
-  background-image: url(./assets/background-image-tea-1.jpg)
+  display: grid;
+  background-image: url(./assets/background-image-tea-1.jpg);
+  height: 500px;
 }
 
 .tea-range-container {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
   max-width: 80vw;
-  margin: auto;
+  margin: 0px auto;
+  justify-content: center;
 }
 
 .tea-description {
   font-size: 8px;
+  text-align: left;
 }
 
 .tea-product-type {
@@ -116,14 +129,67 @@ h4 {
   max-height: 200px;
   border-radius: 10px;
   position: relative;
-  padding: 20px;
-  margin: 20px;
+  margin: 10px;
   background-color: white;
+  padding: 20px 20px 20px 20px;
 }
+
+/* Product Gallery */
+
+.product-grid {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'main main main main right right' 'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.img-1 {
+  grid-area: header;
+  height: 10%;
+  width: 10%;
+}
+
+.img-2 {
+  grid-area: menu;
+  height: 10%;
+  width: 10%;
+}
+
+.img-3 {
+  grid-area: main;
+  height: 10%;
+  width: 10%;
+}
+
+.img-4 {
+  grid-area: right;
+  height: 10%;
+  width: 10%;
+}
+
+.img-5 {
+  grid-area: footer;
+  height: 10%;
+  width: 10%;
+}
+
+.img-6 {
+  grid-area: header;
+  height: 10%;
+  width: 10%;
+}
+
+
+/* Testimonials */
 
 .testimonials {
   background-color: #C58E4C;
 }
+
+
+/* Latest Blogs */
+
+/* Footer */
 
 .footer {
   background-image: url(./assets/footer-tea.jpg)
