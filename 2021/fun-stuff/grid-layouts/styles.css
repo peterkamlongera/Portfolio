@@ -1,0 +1,109 @@
+body {
+  font-size: 20px;
+}
+
+/* 1. Super Centered */
+
+.sc-parent {
+  display: grid;
+  place-items: center;
+}
+
+.sc-box {
+  background-color: orange;
+}
+
+/* 2. Deconstructed Pancake */
+
+.dp-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.dp-box {
+  flex: 1 1 150px;
+  /* flex: 0 1 150px; No stretching */
+  background-color: grey;
+  margin: 5px;
+  text-align: center;
+}
+
+/* 3. Sidebar Says */
+
+.ss-parent {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  margin-bottom: 2px;
+}
+
+.ss-left-section {
+  background-color: orange;
+}
+
+.ss-right-section {
+  background-color: red;
+}
+
+/* 4. Pancake Stack */
+
+.ps-parent {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-bottom: 2px;
+}
+
+.ps-header {
+  background-color: blue;
+}
+
+.ps-main {
+  background-color: red;
+}
+
+.ps-footer {
+  background-color: green;
+}
+
+/* 5. Classic Holy Grail Layout */
+
+.hg-parent {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+.hg-header {
+  padding: 2rem;
+  grid-column: 1 / 4;
+  background-color: pink;
+}
+
+.hg-left-side {
+  grid-column: 1 / 2;
+  background-color: blue;
+}
+
+.hg-main {
+  grid-column: 2 / 3;
+  background-color: green;
+}
+
+.hg-right-side {
+  grid-column: 3 / 4;
+  background-color: yellow;
+}
+
+.hg-footer {
+  grid-column: 1 / 4;
+  background-color: red;
+}
+
+/* 6. 12-Span Grid */
+
+/* 7. RAM (Repeat, Auto, Minamx) */
+
+/* 8. Line Up */
+
+/* 9. Clamping My Style */
+
+/* 10. Respect for Aspect */

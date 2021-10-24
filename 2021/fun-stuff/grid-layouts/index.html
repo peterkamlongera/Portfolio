@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Layouts</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+
+    <div class="sc-parent">
+      <div class="sc-box">
+        This is in the center
+      </div>
+    </div>
+
+    <div class="dp-parent">
+      <div class="dp-box">1
+      </div>
+      <div class="dp-box">2
+      </div>
+      <div class="dp-box">3
+      </div>
+    </div>
+
+    <div class="ss-parent">
+      <div class="ss-left-section">Min: 150px / Max 25%</div>
+      <div class="ss-right-section">
+        This element takes the second grid position (1fr) meaning it takes up the rest of the remaining space
+      </div>
+    </div>
+
+    <div class="ps-parent">
+      <header class="ps-header">Header</header>
+      <main class="ps-main">Main
+      </main>
+      <footer class="ps-footer">Footer Content</footer>
+    </div>
+
+    <div class="hg-parent">
+      <header class="hg-header">Header
+      </header>
+        <div class="hg-left-side">
+          Left Sidebar
+        </div>
+        <main class="hg-main">
+          Main Content
+        </main>
+        <div class="hg-right-side">
+          Right Sidebar
+        </div>
+        <footer class="hg-footer">Footer</footer>
+    </div>
+
+  </body>
+</html>
