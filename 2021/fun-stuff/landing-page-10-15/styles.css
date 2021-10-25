@@ -19,6 +19,10 @@ h4 {
   text-align: center;
 }
 
+li {
+  padding-left: 1em;
+}
+
 /* Navigation & Header Section */
 
 .business-info {
@@ -34,7 +38,9 @@ h4 {
 }
 
 .nav-headers {
-  word-spacing: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /* Hero Section */
@@ -138,13 +144,14 @@ h4 {
 
 .product-grid {
   display: grid;
-  grid-template-areas: 'header header header header header header' 'main main main main right right' 'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-template-columns: 4em 4em 4em 4em;
+  grid-template-rows: 1em 2em;
+  grid-gap: 5px;
+  padding: 5px;
 }
 
 .img-1 {
-  grid-area: header;
+  grid-area: ;
   height: 10%;
   width: 10%;
 }
