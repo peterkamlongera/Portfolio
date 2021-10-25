@@ -224,15 +224,20 @@ li {
 /* Footer */
 
 .footer {
-  background-image: url(./assets/footer-tea.jpg)
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  border: black 0.25em solid;
+  padding: 1em 0 0 0;
 }
 
 .about-us {
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .newsletter {
-  text-align: right;
-  color: white;
+  text-align: left;
+  color: black;
+  grid-column: 2 / 3;
 }
