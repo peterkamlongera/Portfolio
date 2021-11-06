@@ -53,7 +53,7 @@ li {
 /* Hero Section */
 
 .hero-image {
-  background-image: url(./assets/tea-header-4.jpg);
+  background-image: url(./assets/arfan-abdulazeez-oi0FvNhkHy8-unsplash.jpg);
   height: 700px;
   background-size: cover;
 }
@@ -113,6 +113,24 @@ li {
 .demo-description {
   width: 45vw;
   text-align: left;
+}
+
+.demo-heading {
+  font-size: 2em;
+}
+
+.demo-sub-heading {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.demo-sub-description {
+  font-size: 1em;
+}
+
+.tag-line {
+  color: #606C38;
+  font-size: 0.75em;
 }
 
 /* Product Range */
@@ -205,7 +223,8 @@ li {
 /* Testimonials */
 
 .testimonials {
-  background-color: #C58E4C;
+  background-color: #BC6C25;
+  color: white;
 }
 
 .testimonials-details {
@@ -243,10 +262,9 @@ li {
 
 .latest-blogs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 1em 0 0 0;
-  justify-content: space-between;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
   align-items: center;
   max-width: 70vw;
 }
@@ -257,7 +275,7 @@ li {
 }
 
 .blog-img {
-  /* max-width: 70vw; */
+  max-width: 45vw;
   height: 50vh;
 }
 
