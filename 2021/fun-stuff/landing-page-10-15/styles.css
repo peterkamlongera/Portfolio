@@ -1,5 +1,11 @@
 /* Global */
 
+.ps-parent {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-bottom: 2px;
+}
+
 nav {
   height: 20px;
   color: white;
