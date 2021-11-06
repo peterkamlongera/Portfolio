@@ -58,6 +58,11 @@ li {
   background-size: cover;
 }
 
+.hero-description-container {
+  max-width: 70vw;
+  margin: auto;
+}
+
 .hero-image-header {
   padding: 150px 0 0 70px;
 }
@@ -67,7 +72,7 @@ li {
   position: relative;
   text-align: left;
   padding-top: 0px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .hero-image-headline {
@@ -76,7 +81,7 @@ li {
   text-align: left;
   padding-top: 10px;
   padding-bottom: 15px;
-  font-size: 60px;
+  font-size: 3rem;
   max-width: 50%;
 }
 
@@ -93,7 +98,7 @@ li {
 .demo {
   display: flex;
   flex-direction: row;
-  width: 90vw;
+  max-width: 70vw;
   padding: 20px;
   margin: 0px auto;
 }
@@ -154,6 +159,10 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-auto-rows: 240px;
   gap: 1rem;
+  margin: auto;
+  justify-content: center;
+  max-width: 70vw;
+  padding: 0 0 4rem 0;
 }
 @media screen and (min-width:600px) {
   .img-1 {
@@ -199,20 +208,38 @@ li {
   background-color: #C58E4C;
 }
 
+.testimonials-details {
+  justify-content: center;
+  /* align-items: center; */
+  display: grid;
+}
+
 .testimonials-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  max-width: 70vw;
+  padding: 0 0 4rem 0;
+  justify-content: center;
 }
 
 .milestones {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  max-width: 70vw;
+  padding: 0 0 4rem 0;
 }
 
 
 /* Latest Blogs */
+
+.blogs-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
 .latest-blogs {
   display: grid;
@@ -220,21 +247,38 @@ li {
   gap: 2rem;
   padding: 1em 0 0 0;
   justify-content: space-between;
+  align-items: center;
+  max-width: 70vw;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-img {
-  width: 45vw;
+  /* max-width: 70vw; */
   height: 50vh;
 }
 
 /* Footer */
 
+.footer-container {
+  display: grid;
+  max-width: 70vw;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  border: black 0.25em solid;
+  gap: 0.75rem;
+  border: black 0.20em solid;
   padding: 1em 0 0 0;
+  max-width: 70vw;
+  font-size: 0.75em;
 }
 
 .about-us {
@@ -243,7 +287,11 @@ li {
 }
 
 .newsletter {
-  text-align: left;
+  text-align: center;
   color: black;
   grid-column: 2 / 3;
+}
+
+.social-media {
+  text-align: center;
 }
