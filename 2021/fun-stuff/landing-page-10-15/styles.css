@@ -3,17 +3,21 @@
 .ps-parent {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  margin-bottom: 2px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 nav {
-  height: 20px;
-  color: white;
-  padding-right: 5px;
+  max-width: 70vw;
+  margin: auto;
 }
 
 body {
-  font-family: "Nunito"
+  font-family: "Nunito";
 }
 
 h1 {
@@ -30,24 +34,43 @@ li {
   padding-left: 1em;
 }
 
+ul {
+}
+
 /* Navigation & Header Section */
 
+.nav-wrapper {
+  height: 20vh;
+  color: white;
+  position: fixed;
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+  text-align: left;
+}
+
 .business-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   position: relative;
   text-align: right;
+  margin-bottom: 0;
 }
 
 .nav-bar {
   position: relative;
   text-align: right;
-  justify-content: space-between;
-  padding-right: 10px;
 }
 
 .nav-headers {
   list-style: none;
   display: flex;
   flex-direction: row-reverse;
+  text-decoration: none;
+  margin-top: 0;
 }
 
 /* Hero Section */
