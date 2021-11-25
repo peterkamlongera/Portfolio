@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito"
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.accordion-container {
+  background: #fff;
+  width: 65%;
+  /* border-radius: 25px; */
+  text-align: left;
+}
+
+.accordion-wrapper {
+  /* border-radius: 25px; */
+  align-items: center;
+
+}
+
+.accordion-module-heading {
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 0 0 0.5rem; */
+  cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.accordion-module-heading span {
+  color: black;
+  margin: 0.5rem 0 0 0;
+  display: block;
+  font-size: 2em;
+}
+
+.accordion-header {
+  margin: 0 0 0 0;
+  color: black;
+}
+
+.accordion-dropdown {
+  background: white;
+  color: black;
+}
+
+
+.accordion-dropdown-items {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+}
+
+.accordion-dropdown-items li {
+  margin: 0 0 0 0em;
+}
+
+.module-item-wrapper {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  flex: 1 1 0%;
+}
+
+.module-item {
+  display: flex;
+  padding: 12px 6px 12px 10px;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+}
+
+.item-icon {
+  margin: 0 0 0 0.25em;
+}
+
+.item-info {
+  margin: 0 12px 0 12px;
+  min-width: 1px;
+  flex: 1 1 0%;
+  font-size: 0.75em;
+}
+
+.item-details {
+  font-size: 0.5em;
+}
