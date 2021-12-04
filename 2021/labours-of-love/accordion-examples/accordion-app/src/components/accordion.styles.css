@@ -13,12 +13,13 @@ a {
 .accordion-container {
   background: #fff;
   width: 65%;
-  /* border-radius: 25px; */
+  border-radius: 5px;
   text-align: left;
+  margin: 0.25em;
 }
 
 .accordion-wrapper {
-  /* border-radius: 25px; */
+  border-radius: 5px;
   align-items: center;
 
 }
@@ -33,13 +34,13 @@ a {
 
 .accordion-module-heading span {
   color: black;
-  margin: 0.5rem 0 0 0;
+  margin: 0.5rem 0 0 0.5rem;
   display: block;
   font-size: 2em;
 }
 
 .accordion-header {
-  margin: 0 0 0 0;
+  margin: 0 0 0 0.5rem;
   color: black;
 }
 
@@ -84,6 +85,10 @@ a {
   min-width: 1px;
   flex: 1 1 0%;
   font-size: 0.75em;
+}
+
+#header {
+  font-weight: bold;
 }
 
 .item-details {

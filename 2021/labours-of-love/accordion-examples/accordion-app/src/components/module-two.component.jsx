@@ -7,7 +7,7 @@ import {Data} from "./module-data.js";
 import {BiDownArrow, BiRightArrow, BiRadioCircle} from "react-icons/bi";
 import {HiDocumentText} from "react-icons/hi";
 
-function Accordion() {
+function ModuleOne() {
   const [click, setClick] = useState(false);
 
   const toggle = index => {
@@ -20,7 +20,7 @@ function Accordion() {
   return (
     <div className="accordion-container">
       {Data.map((item, index) => {
-        if (item.module === "Orientation")
+        if (item.module === "George 1.1")
           return (
             <div
               className="accordion-wrapper"
@@ -40,7 +40,7 @@ function Accordion() {
                   <ul className="accordion-dropdown-items">
                     <li className="module-item">
                       <div className="item-info">
-                        <div className="item-title">
+                        <div className="item-title" id="header">
                           {item.item0.toUpperCase()}
                         </div>
                       </div>
@@ -190,4 +190,4 @@ function Accordion() {
   );
 }
 
-export default Accordion;
+export default ModuleOne;

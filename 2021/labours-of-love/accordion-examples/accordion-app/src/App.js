@@ -1,12 +1,14 @@
 import "./App.css";
 
-import Accordion from "./components/accordion.component.jsx";
+import ModuleOne from "./components/module-one.component.jsx";
+import ModuleTwo from "./components/module-two.component.jsx";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Accordion />
+        <ModuleOne />
+        <ModuleTwo />
       </header>
     </div>
   );

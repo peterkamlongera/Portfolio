@@ -10,22 +10,22 @@ export const Data = [
   },
   {
     module: "George 1.1",
-    item1: "Week 1",
-    item2: "Dialogue - Academics",
-    item3: "Exercise - Academics",
-    item4: "Dialogue - Cooking Your Favourite Recipe",
-    item5: "Exercise - Cooking Your Favourite Recipe",
-    item6: "Dialogue - Meet My Family",
-    item7: "Exercise - Meet My Family"
+    item0: "Week 1",
+    item1: "Dialogue - Academics",
+    item2: "Exercise - Academics",
+    item3: "Dialogue - Cooking Your Favourite Recipe",
+    item4: "Exercise - Cooking Your Favourite Recipe",
+    item5: "Dialogue - Meet My Family",
+    item6: "Exercise - Meet My Family"
   },
   {
     module: "George 1.2",
-    item1: "Week 2",
-    item2: "Dialogue - XYZ",
-    item3: "Exercise - XYZ",
-    item4: "Dialogue - ABC",
-    item5: "Exercise - ABC",
-    item6: "Dialogue - 123",
-    item7: "Exercise - 123"
+    item0: "Week 2",
+    item1: "Dialogue - XYZ",
+    item2: "Exercise - XYZ",
+    item3: "Dialogue - ABC",
+    item4: "Exercise - ABC",
+    item5: "Dialogue - 123",
+    item6: "Exercise - 123"
   }
 ];

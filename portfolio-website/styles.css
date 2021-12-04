@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 0 0 0;
+}
+
+h2 {
+  margin: 0 0 0 0;
+}
+
+
+.portfolio-page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0 0 0px 0;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background-image: linear-gradient(to bottom,#94B371, #DFFFBA);
+  /* background-color: #94B371; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto repeat(7, 1fr);
+  grid-template-rows: auto repeat(12, 1fr);
+  background-size: cover;
+  margin: auto;
+}
+
+.github-logo {
+  height: 30%;
+}
+
+.hero-logo {
+  grid-area: 1 / 3 / span 1 / span 3;
+  margin: 2em 0 2em 0;
+  font-family: "Libre Franklin";
+  font-weight: bold;
+}
+
+
+.hero-navigation {
+  list-style: none;
+  font-size: 2em;
+  grid-area: 1 / 8 / span 1 / span 3;
+}
+
+.hero-navigation ul {
+  font-family: "Libre Franklin";
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-navigation li {
+  list-style: none;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.hero-description {
+  display: grid;
+  grid-template-columns: auto repeat(12, 1fr);
+  grid-template-rows: auto repeat(9, 1fr);
+}
+
+.hero-heading {
+  display: grid;
+  grid-area: 3 / 3 / span 2 / span 6;
+}
+
+.hero-heading h1 {
+  font-family: "Libre Franklin";
+  font-size: 4em;
+}
+
+.hero-heading h2 {
+  font-family: "Work Sans";
+  font-size: 3em;
+}
+
+.hero-heading button {
+  font-family: "Mukta Vaani";
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 2em;
+  border: 0.1em solid black;
+  background-color: #94B371;
+  margin: 1em 0.2em 0 0.2em;
+  padding: 0em 1em 0em 1em;
+  cursor: pointer;
+}
+
+#alt-btn {
+  font-family: "Mukta Vaani";
+  font-weight: bold;
+  color: #DFFFBA;
+  border-radius: 50px;
+  font-size: 2em;
+  border: 0.1em solid #DFFFBA;
+  background-color: #94B371;
+  opacity: ;
+  margin: 1em 0.2em 0 0.2em;
+  padding: 0em 1em 0em 1em;
+}
+
+.hero-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hero-image {
+  grid-area: 2 / 9 / span 3 / span 4;
+  /* border: 0.2em solid black; */
+  margin: 0 0 0 0;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  border: 0.2em solid black;
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+/* Skills Section */
+
+.skills-section {
+  background-color: #DFFFBA;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto repeat(12, 1fr);
+  grid-template-rows: auto repeat(12, 1fr);
+  margin: auto;
+}
+
+.skills-heading {
+  font-size: 4em;
+  font-family: "Work Sans";
+  display: grid;
+  grid-area: 3 / 3 / span 1 / span 1;
+  text-align: left;
+}
+
+.skills-section h3 {
+  font-size: 1em;
+}
+
+.skill-one {
+  grid-area: 8 / 3 / span 1 / span 2;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Mukta Vaani";
+}
+
+.skill-two {
+  grid-area: 8 / 7 / span 1 / span 2;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Mukta Vaani";
+}
+
+.skill-three {
+  grid-area: 8 / 11 / span 1 / span 2;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Mukta Vaani";
+}
+
+
+/* Projects Section */
+
+.projects-section {
+  background-color: #DFFFBA;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto repeat(12, 1fr);
+  grid-template-rows: auto repeat(12, 1fr);
+  margin: auto;
+}
+
+.projects-heading {
+  font-size: 4em;
+  font-family: "Work Sans";
+  display: grid;
+  grid-area: 3 / 3 / span 1 / span 1;
+  text-align: left;
+}
+
+.projects-sub-heading {
+  grid-area: 4 / 3 / span 1 / span 1;
+  font-size: 2em;
+  font-family: "Work Sans";
+}
+
+.projects-portfolio-one-heading {
+}
+
+.projects-portfolio-one {
+  border: 0.2em black solid;
+  border-radius: 50px;
+  height: 40vh;
+  width: 20vw;
+  display: grid;
+  grid-area: 5 / 3 / span 1 / span 1;
+  font-size: 1em;
+  font-family: "Work Sans";
+  text-align: center;
+}
+
+
+.projects-sub-heading-2 {
+  grid-area: 6 / 3 / span 1 / span 1;
+  font-size: 2em;
+  font-family: "Work Sans";
+}
+
+.projects-portfolio-two {
+  border: 0.2em black solid;
+  border-radius: 50px;
+  height: 40vh;
+  width: 20vw;
+  display: grid;
+  grid-area: 7 / 3 / span 1 / span 1;
+  font-size: 1em;
+  font-family: "Work Sans";
+  text-align: center;
+}
+
+/* Writing Section */
+
+.writing-section {
+  background-image: linear-gradient(to bottom, #DFFFBA, #94B371);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto repeat(12, 1fr);
+  grid-template-rows: auto repeat(12, 1fr);
+  margin: auto;
+}
+
+.writing-heading {
+  font-size: 4em;
+  font-family: "Work Sans";
+  display: grid;
+  grid-area: 3 / 3 / span 1 / span 1;
+  text-align: left;
+}
